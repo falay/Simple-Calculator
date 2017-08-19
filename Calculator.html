@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<style>
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+</style>
+
+
+<h2>Simple Calculator</h2>
+
+<p>Please enter an arithmetic expression</p>
+
+<input id="numb" style="width: 300px; height: 30px">
+
+<button class="button" type="button" onclick="calculator();this.disabled=true;this.value=this.form.submit();">Submit</button>
+
+<button class="button" type="button" onclick="window.location.reload();">Clear</button>
+
+<p id="demo"></p>
+
+<script type="text/javascript" src="calculator.js"></script>
+
+
+</body>
+</html> 
